@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Doto:wght@100..900&family=Noto+Sans+Math&display=swap');
+
+* {
+    font-family: "Bruno Ace SC";
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+body {
+    background-color: #000000;
+    display: flex;
+}
+
+.calculator {
+    margin-top: 60px;
+    width: 500px;
+    height: 800px;
+    border: solid 1px white;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(3px);
+    border-radius: 25px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+#display  {
+    width: 100%;
+    height: 50px;
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: solid 1px whitesmoke;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(3px);
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-left: 8px;
+    background-color: #1c1d21;
+    color: white;
+    box-shadow: -3px 3px 10px #3d699230;
+    text-shadow: 0px 0px 2px #3d6992;
+}
+
+.btn img {
+    margin-top: 5px;
+    margin-right: 2px;
+    width: 25px;
+    height: 20px;
+}
+
+.button-wrap .equalbtn {
+    width: 210px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#colorOrange {
+    background-color: orange;
+    color: black;
+}

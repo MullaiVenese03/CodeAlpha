@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Bungee+Spice&family=Doto:wght@100..900&family=Noto+Sans+Math&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff6ca;
+  font-family: "Bungee Spice";
+}
+
+.music-player {
+  border-radius: 10px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.song-info {
+  margin-bottom: 20px;
+}
+
+#album-art {
+  width: 65%;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #fff6ca;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
